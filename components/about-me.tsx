@@ -1,5 +1,6 @@
 import { dataAboutMe, dataSlider } from "@/data";
 import Image from "next/image";
+import Link from "next/link";
 import Title from "./shared/title";
 import { Phone } from "lucide-react";
 import { Button } from "./ui/button";
@@ -67,7 +68,7 @@ const AboutMe = () => {
           </p>
           <Button>
             <Phone size={20} className="mr-2" />
-            Contáctanos
+            <Link href="tel:+34677666633">Contáctanos</Link>
           </Button>
         </div>
       </div>
